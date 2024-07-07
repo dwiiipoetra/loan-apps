@@ -58,7 +58,7 @@ const useLoans = () => {
         onMounted(() => {
             load()
         })
-        return { headers, items, error }
+        return { headers, items, loans, error }
     }
 
     // fungsi untuk melakukan fetch API get loan by ID
