@@ -1,11 +1,16 @@
 <script setup>
+// menggunakan layout default
 definePageMeta({
     layout: 'default'
 })
+// import useLoans composables
 import useLoans from '@/composables/useLoans'
+// desctructure getLoanByID, currencyFormatUSD
 const { getLoanByID, currencyFormatUSD } = useLoans()
+// menggunakan useRoute dan mengambil id dari route (digunakan untuk mengirim param ke getLoanID composables)
 const route = useRoute()
 const id = route.params.id
+// destructure getLoanID composables
 let { loan, error } = getLoanByID(id)
 </script>
 
@@ -14,6 +19,7 @@ let { loan, error } = getLoanByID(id)
 
 <template>
     <v-container>
+        <!-- tampilkan loan data ketika tidak ada error -->
         <v-row v-if="!error">
             <v-col cols="12" lg="3">
                 <v-card variant="flat" color="indigo" class="pa-4" style="text-align:center; height: 100%;">
@@ -98,6 +104,7 @@ let { loan, error } = getLoanByID(id)
             </v-col>
         </v-row>
 
+        <!-- tampilkan alert error ketika ada error -->
         <v-alert v-else type="error" dismissible>
         {{ error }}
       </v-alert>

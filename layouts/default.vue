@@ -1,3 +1,6 @@
+<script setup>
+</script>
+
 <template>
   <v-layout class="rounded rounded-md">
     <v-navigation-drawer>
@@ -22,17 +25,10 @@
     </v-navigation-drawer>
 
     <v-app-bar :elevation="2">
-      <!-- <template v-slot:prepend>
+      <template v-slot:prepend>
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
-      </template> -->
-
-      <v-app-bar-title>Application Bar</v-app-bar-title>
-      
-      <!-- <v-breadcrumbs :items="items">
-        <template v-slot:prepend>
-          <v-icon icon="$vuetify" size="small"></v-icon>
-        </template>
-      </v-breadcrumbs> -->
+      </template>
+      <v-app-bar-title>Loan Apps</v-app-bar-title>  
     </v-app-bar>
 
     <v-main class="d-flex align-center justify-center" style="min-height: 300px;">
