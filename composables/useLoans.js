@@ -4,12 +4,13 @@ const useLoans = () => {
         const headers = [
             { title: 'Borrower Name', value: 'name' },
             { title: 'Email', value: 'email' },
-            { title: 'Amount', value: 'amount' },
-            { title: 'Interest Rate', value: 'interestRate' },
-            { title: 'Term', value: 'term' },
-            { title: 'Purpose', value: 'purpose' },
+            { title: 'Amount (US$)', value: 'amount' },
+            { title: 'Interest Rate (%)', value: 'interestRate' },
+            { title: 'Term (times)', value: 'term' },
+            { title: 'Loan Purpose', value: 'purpose' },
             { title: 'Risk Rating', value: 'riskRating' },
-            { title: 'Collateral Type', value: 'collateralType' },
+            { title: 'Assets Type', value: 'collateralType' },
+            { title: 'Assets Value (US$)', value: 'collateralValue' },
             { title: 'Actions', value: 'actions', sortable: false },
         ]
         const items = ref([])
@@ -41,7 +42,8 @@ const useLoans = () => {
                         term: item.term,
                         purpose: item.purpose,
                         riskRating: item.riskRating,
-                        collateralType: item.collateral.type
+                        collateralType: item.collateral.type,
+                        collateralValue: item.collateral.value
                     })
                 });
             }
@@ -76,8 +78,17 @@ const useLoans = () => {
         })
         return { loan, error }
     }
+
+    const currencyFormatUSD = (numb) => {
+        const formatted = new Intl.NumberFormat('id-ID', {
+          style: 'currency',
+          currency: 'USD'
+        }).format(numb)
+        
+        return formatted
+    }
     
-    return { getAllLoans, getLoanByID }
+    return { getAllLoans, getLoanByID, currencyFormatUSD }
 }
 
 export default useLoans

@@ -3,7 +3,7 @@ definePageMeta({
     layout: 'default'
 })
 import useLoans from '@/composables/useLoans'
-const { getAllLoans } = useLoans()
+const { getAllLoans, currencyFormatUSD } = useLoans()
 let { headers, items, error } = getAllLoans()
 </script>
 
