@@ -21,7 +21,13 @@
       </v-list>
     </v-navigation-drawer>
 
-    <app-bar/>
+    <v-app-bar :elevation="2">
+      <template v-slot:prepend>
+        <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      </template>
+
+      <v-app-bar-title>Application Bar</v-app-bar-title>
+    </v-app-bar>
 
     <v-main class="d-flex align-center justify-center" style="min-height: 300px;">
       <slot/>

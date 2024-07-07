@@ -2,9 +2,9 @@
 definePageMeta({
     layout: 'default'
 })
-
-import getAllLoans from '@/services/getAllLoans'
-let { headers, items, error, load } = getAllLoans()
+import useLoans from '@/composables/useLoans'
+const { getAllLoans } = useLoans()
+let { headers, items, error } = getAllLoans()
 </script>
 
 <template>
@@ -17,7 +17,7 @@ let { headers, items, error, load } = getAllLoans()
       >
         <template v-slot:top>
           <v-toolbar flat>
-            <v-toolbar-title>Tabel Data</v-toolbar-title>
+            <v-toolbar-title>Loans List</v-toolbar-title>
             <v-divider class="mx-4" inset vertical></v-divider>
             <v-spacer></v-spacer>
             <v-text-field
@@ -30,9 +30,14 @@ let { headers, items, error, load } = getAllLoans()
           </v-toolbar>
         </template>
         <template v-slot:item.actions="{ item }">
-          <v-icon small class="mr-2" @click="editItem(item)">mdi-pencil</v-icon>
-          <v-icon small @click="deleteItem(item)">mdi-delete</v-icon>
+          <nuxt-link :to="`/loans/${item.id}`">
+            <v-icon small>mdi-eye</v-icon>
+          </nuxt-link>
         </template>
       </v-data-table>
+      
+      <v-alert v-if="error" type="error" dismissible>
+        {{ error }}
+      </v-alert>
     </v-container>
 </template>
