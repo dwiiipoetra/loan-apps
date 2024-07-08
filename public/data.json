@@ -1,7 +1,7 @@
 [
     {
       "id": "658539b43f5498ccae79105b",
-      "amount": 15000,
+      "amount": 1500,
       "interestRate": 0.8,
       "term": 120,
       "purpose": "Business Expansion",
@@ -181,7 +181,7 @@
     },
     {
       "id": "658539b4c0c84c2e90331b38",
-      "amount": 10000,
+      "amount": 11000,
       "interestRate": 0.5,
       "term": 120,
       "purpose": "Business Expansion",
@@ -217,7 +217,7 @@
     },
     {
       "id": "658539b4c81273b4ec1b25d8",
-      "amount": 12000,
+      "amount": 1200,
       "interestRate": 0.5,
       "term": 120,
       "purpose": "Business Expansion",
@@ -253,7 +253,7 @@
     },
     {
       "id": "658539b4895586c759e074d8",
-      "amount": 12500,
+      "amount": 1250,
       "interestRate": 0.4,
       "term": 90,
       "purpose": "Others",
@@ -289,7 +289,7 @@
     },
     {
       "id": "658539b4dd99398e342ad63a",
-      "amount": 13000,
+      "amount": 1300,
       "interestRate": 0.4,
       "term": 120,
       "purpose": "Others",
@@ -325,7 +325,7 @@
     },
     {
       "id": "658539b4e6063f02f06ddfcd",
-      "amount": 135000,
+      "amount": 1350,
       "interestRate": 0.4,
       "term": 30,
       "purpose": "Others",
@@ -361,7 +361,7 @@
     },
     {
       "id": "658539b4a708321bb0f5ca1e",
-      "amount": 14000,
+      "amount": 1400,
       "interestRate": 0.2,
       "term": 60,
       "purpose": "Others",
@@ -397,7 +397,7 @@
     },
     {
       "id": "658539b4b0f633ca9e6e12a1",
-      "amount": 14500,
+      "amount": 1450,
       "interestRate": 0.1,
       "term": 60,
       "purpose": "Home Improvement",
@@ -433,7 +433,7 @@
     },
     {
       "id": "658539b444a7f21ba8fd4b71",
-      "amount": 14500,
+      "amount": 1450,
       "interestRate": 0.3,
       "term": 90,
       "purpose": "Others",
@@ -469,7 +469,7 @@
     },
     {
       "id": "658539b4262bb457e5cc498e",
-      "amount": 15000,
+      "amount": 1500,
       "interestRate": 0.1,
       "term": 30,
       "purpose": "Others",
@@ -505,7 +505,7 @@
     },
     {
       "id": "658539b46614f61eeea46525",
-      "amount": 15000,
+      "amount": 1500,
       "interestRate": 0.6,
       "term": 60,
       "purpose": "Home Improvement",
@@ -577,7 +577,7 @@
     },
     {
       "id": "658539b41dad92abe379f11b",
-      "amount": 16000,
+      "amount": 1600,
       "interestRate": 0.7,
       "term": 30,
       "purpose": "Others",
@@ -613,7 +613,7 @@
     },
     {
       "id": "658539b4a3199592bafecafa",
-      "amount": 16000,
+      "amount": 1600,
       "interestRate": 0.7,
       "term": 80,
       "purpose": "Others",
@@ -649,7 +649,7 @@
     },
     {
       "id": "658539b4fa78252e9108d813",
-      "amount": 16000,
+      "amount": 1600,
       "interestRate": 0.8,
       "term": 90,
       "purpose": "Others",
@@ -685,7 +685,7 @@
     },
     {
       "id": "658539b4ef61381e0b38dd0d",
-      "amount": 16000,
+      "amount": 1600,
       "interestRate": 0.8,
       "term": 60,
       "purpose": "Education",
@@ -721,7 +721,7 @@
     },
     {
       "id": "658539b48ab753c9562042b7",
-      "amount": 175000,
+      "amount": 1750,
       "interestRate": 0.8,
       "term": 30,
       "purpose": "Education",
@@ -757,7 +757,7 @@
     },
     {
       "id": "658539b42a3c236832582a07",
-      "amount": 18000,
+      "amount": 1800,
       "interestRate": 0.8,
       "term": 60,
       "purpose": "Business Expansion",
@@ -793,7 +793,7 @@
     },
     {
       "id": "658539b4a949a80b575cf19d",
-      "amount": 19000,
+      "amount": 1900,
       "interestRate": 0.8,
       "term": 120,
       "purpose": "Education",
@@ -829,7 +829,7 @@
     },
     {
       "id": "658539b48ca3ec2ecb5229fe",
-      "amount": 19500,
+      "amount": 1950,
       "interestRate": 0.8,
       "term": 60,
       "purpose": "Others",
@@ -865,7 +865,7 @@
     },
     {
       "id": "658539b4b4e137865b8720e2",
-      "amount": 20000,
+      "amount": 2000,
       "interestRate": 0.8,
       "term": 90,
       "purpose": "Others",
@@ -901,7 +901,7 @@
     },
     {
       "id": "658539b45dee870635ad72d4",
-      "amount": 25000,
+      "amount": 2500,
       "interestRate": 0.8,
       "term": 30,
       "purpose": "Business Expansion",

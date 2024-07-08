@@ -63,6 +63,8 @@ watchEffect(() => {
         assetsValue.value = loans.value.map(item => item.collateral.value)
     }
 })
+
+const value = ref([]);
 </script>
 
 <template>
@@ -88,10 +90,12 @@ watchEffect(() => {
                         height="100"
                         padding="24"
                         stroke-linecap="round"
-                        smooth
+                        type="bar"
+                        :smooth="false"
+                        labelSize="3"
                     >
                         <template v-slot:label="item">
-                        ${{ item.amountBorrowed }}
+                        ${{ item.value }}
                         </template>
                     </v-sparkline>
                     </v-sheet>
@@ -127,15 +131,16 @@ watchEffect(() => {
                     <v-sheet color="rgba(0, 0, 0, .12)">
                     <v-sparkline
                         :model-value="borrowerCreditScore"
-                        :labels="labels"
                         color="rgba(255, 255, 255, .7)"
                         height="100"
                         padding="24"
                         stroke-linecap="round"
-                        smooth
+                        :smooth="false"
+                        :showLabels="false"
+                        labelSize="3"
                     >
                         <template v-slot:label="item">
-                        ${{ item.borrowerCreditScore }}
+                        ${{ item.value }}
                         </template>
                     </v-sparkline>
                     </v-sheet>
@@ -175,10 +180,11 @@ watchEffect(() => {
                         height="100"
                         padding="24"
                         stroke-linecap="round"
-                        smooth
+                        :smooth="false"
+                        labelSize="2"
                     >
                         <template v-slot:label="item">
-                        ${{ item.assetsValue }}
+                        ${{ item.value }}
                         </template>
                     </v-sparkline>
                     </v-sheet>
