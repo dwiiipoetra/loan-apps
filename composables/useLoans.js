@@ -97,8 +97,12 @@ const useLoans = () => {
         
         return formatted
     }
+
+    const arrayOfNumbersTo1K = (numb) => {
+        return numb.map(num => (num % 1000 === 0 || num % 1000 !== num) ? num / 1000 : num)
+    }
     
-    return { getAllLoans, getLoanByID, currencyFormatUSD }
+    return { getAllLoans, getLoanByID, currencyFormatUSD, arrayOfNumbersTo1K }
 }
 // export useLoans sebagai fungsi global
 export default useLoans

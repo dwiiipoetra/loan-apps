@@ -47,7 +47,7 @@
 // import useLoans composables
 import useLoans from '@/composables/useLoans'
 // desctructure getAllLoans
-const { getAllLoans } = useLoans()
+const { getAllLoans, arrayOfNumbersTo1K } = useLoans()
 // destructure getAllLoans composables
 let { loans, error } = getAllLoans()
 // simpan data chart
@@ -58,12 +58,11 @@ const assetsValue = ref([])
 // digunakan untuk memantau nilai list loans ketika berhasil fetch API, kemudian ubah struktur array sesuai chart
 watchEffect(() => {
     if(Array.isArray(loans.value)) {
-        amountBorrowed.value = loans.value.map(item => item.amount)
+        amountBorrowed.value = arrayOfNumbersTo1K(loans.value.map(item => item.amount))
         borrowerCreditScore.value = loans.value.map(item => item.borrower.creditScore)
-        assetsValue.value = loans.value.map(item => item.collateral.value)
+        assetsValue.value = arrayOfNumbersTo1K(loans.value.map(item => item.collateral.value))
     }
 })
-
 const value = ref([]);
 </script>
 
@@ -103,7 +102,7 @@ const value = ref([]);
             
                 <v-card-text>
                     <div class="text-h5 font-weight-thin">
-                        Amount Borrowed
+                        Amount Borrowed (k)
                     </div>
                 </v-card-text>
             
@@ -135,12 +134,14 @@ const value = ref([]);
                         height="100"
                         padding="24"
                         stroke-linecap="round"
-                        :smooth="false"
+                        smooth
+                        fill="true"
+                        line-width="1"
                         :showLabels="false"
                         labelSize="3"
                     >
                         <template v-slot:label="item">
-                        ${{ item.value }}
+                        {{ item.value }}
                         </template>
                     </v-sparkline>
                     </v-sheet>
@@ -180,8 +181,9 @@ const value = ref([]);
                         height="100"
                         padding="24"
                         stroke-linecap="round"
+                        line-width="2"
                         :smooth="false"
-                        labelSize="2"
+                        labelSize="3"
                     >
                         <template v-slot:label="item">
                         ${{ item.value }}
@@ -192,7 +194,7 @@ const value = ref([]);
             
                 <v-card-text>
                     <div class="text-h5 font-weight-thin">
-                        Assets Value
+                        Assets Value (k)
                     </div>
                 </v-card-text>
             

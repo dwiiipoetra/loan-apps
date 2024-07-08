@@ -1,938 +1,938 @@
 [
-    {
-      "id": "658539b43f5498ccae79105b",
-      "amount": 1500,
-      "interestRate": 0.8,
-      "term": 120,
-      "purpose": "Business Expansion",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b489fdaab6eae418f3",
-        "name": "Shelly Valenzuela",
-        "email": "shellyvalenzuela@orbaxter.com",
-        "creditScore": 650
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 100000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
+  {
+    "id": "658539b43f5498ccae79105b",
+    "amount": 1500,
+    "interestRate": 0.8,
+    "term": 120,
+    "purpose": "Business Expansion",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b489fdaab6eae418f3",
+      "name": "Shelly Valenzuela",
+      "email": "shellyvalenzuela@orbaxter.com",
+      "creditScore": 650
     },
-    {
-      "id": "658539b428feed8be88f4743",
-      "amount": 8000,
-      "interestRate": 0.8,
-      "term": 60,
-      "purpose": "Business Expansion",
-      "riskRating": "B",
-      "borrower": {
-        "id": "658539b4531251559e6641bb",
-        "name": "Gayle Long",
-        "email": "gaylelong@orbaxter.com",
-        "creditScore": 700
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 120000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
+    "collateral": {
+      "type": "Real Estate",
+      "value": 100000
     },
-    {
-      "id": "658539b483142e983fa406b6",
-      "amount": 7000,
-      "interestRate": 0.8,
-      "term": 120,
-      "purpose": "Business Expansion",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b400dd686f2836cc1f",
-        "name": "Phyllis Daniels",
-        "email": "phyllisdaniels@orbaxter.com",
-        "creditScore": 700
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 200000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
       }
-    },
-    {
-      "id": "658539b4c4078e9f5df7cc9d",
-      "amount": 7000,
-      "interestRate": 0.9,
-      "term": 30,
-      "purpose": "Business Expansion",
-      "riskRating": "A",
-      "borrower": {
-        "id": "658539b4bcddeed3b178b5f0",
-        "name": "Blevins Matthews",
-        "email": "blevinsmatthews@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 130000
-      },
-      "documents": [
+    ],
+    "repaymentSchedule": {
+      "installments": [
         {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b483a726188161f5d5",
-      "amount": 9000,
-      "interestRate": 0.9,
-      "term": 90,
-      "purpose": "Education",
-      "riskRating": "B",
-      "borrower": {
-        "id": "658539b4a484f3aa8ecc93fe",
-        "name": "Stafford Soto",
-        "email": "staffordsoto@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 210000
-      },
-      "documents": [
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
         {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+          "dueDate": "2023-02-15",
+          "amountDue": 500
         }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4c0c84c2e90331b38",
-      "amount": 11000,
-      "interestRate": 0.5,
-      "term": 120,
-      "purpose": "Business Expansion",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b41f057a6f31c154a0",
-        "name": "Clark Wise",
-        "email": "clarkwise@orbaxter.com",
-        "creditScore": 600
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 690000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4c81273b4ec1b25d8",
-      "amount": 1200,
-      "interestRate": 0.5,
-      "term": 120,
-      "purpose": "Business Expansion",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b4cc7b8f3fb633bc41",
-        "name": "Foreman Charles",
-        "email": "foremancharles@orbaxter.com",
-        "creditScore": 700
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 990000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4895586c759e074d8",
-      "amount": 1250,
-      "interestRate": 0.4,
-      "term": 90,
-      "purpose": "Others",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b47d74be0f895bcad6",
-        "name": "Mcdaniel Bernard",
-        "email": "mcdanielbernard@orbaxter.com",
-        "creditScore": 600
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 170000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4dd99398e342ad63a",
-      "amount": 1300,
-      "interestRate": 0.4,
-      "term": 120,
-      "purpose": "Others",
-      "riskRating": "B",
-      "borrower": {
-        "id": "658539b4a45b4345110b0c91",
-        "name": "Cornelia Rojas",
-        "email": "corneliarojas@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 109000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4e6063f02f06ddfcd",
-      "amount": 1350,
-      "interestRate": 0.4,
-      "term": 30,
-      "purpose": "Others",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b49c105e35f4d4243c",
-        "name": "Petersen Cameron",
-        "email": "petersencameron@orbaxter.com",
-        "creditScore": 650
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 105000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4a708321bb0f5ca1e",
-      "amount": 1400,
-      "interestRate": 0.2,
-      "term": 60,
-      "purpose": "Others",
-      "riskRating": "B",
-      "borrower": {
-        "id": "658539b419b534ae8251dc79",
-        "name": "Santiago Mann",
-        "email": "santiagomann@orbaxter.com",
-        "creditScore": 600
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 107000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4b0f633ca9e6e12a1",
-      "amount": 1450,
-      "interestRate": 0.1,
-      "term": 60,
-      "purpose": "Home Improvement",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b45dbb8071875d3c73",
-        "name": "Robertson Hale",
-        "email": "robertsonhale@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 108000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b444a7f21ba8fd4b71",
-      "amount": 1450,
-      "interestRate": 0.3,
-      "term": 90,
-      "purpose": "Others",
-      "riskRating": "B",
-      "borrower": {
-        "id": "658539b4c1436318233a0238",
-        "name": "Warren Carlson",
-        "email": "warrencarlson@orbaxter.com",
-        "creditScore": 600
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 280000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4262bb457e5cc498e",
-      "amount": 1500,
-      "interestRate": 0.1,
-      "term": 30,
-      "purpose": "Others",
-      "riskRating": "B",
-      "borrower": {
-        "id": "658539b44f753bdbf718c2b6",
-        "name": "Davidson Bolton",
-        "email": "davidsonbolton@orbaxter.com",
-        "creditScore": 700
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 290000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b46614f61eeea46525",
-      "amount": 1500,
-      "interestRate": 0.6,
-      "term": 60,
-      "purpose": "Home Improvement",
-      "riskRating": "A",
-      "borrower": {
-        "id": "658539b482251db0f72909af",
-        "name": "Deanne Short",
-        "email": "deanneshort@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 320000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b41e347c9f026f881f",
-      "amount": 5000,
-      "interestRate": 0.6,
-      "term": 120,
-      "purpose": "Others",
-      "riskRating": "A",
-      "borrower": {
-        "id": "658539b4af8e4f58f444c719",
-        "name": "Sandoval Pugh",
-        "email": "sandovalpugh@orbaxter.com",
-        "creditScore": 700
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 340000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b41dad92abe379f11b",
-      "amount": 1600,
-      "interestRate": 0.7,
-      "term": 30,
-      "purpose": "Others",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b4ed28207d1e35a099",
-        "name": "Ophelia Stevens",
-        "email": "opheliastevens@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 360000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4a3199592bafecafa",
-      "amount": 1600,
-      "interestRate": 0.7,
-      "term": 80,
-      "purpose": "Others",
-      "riskRating": "A",
-      "borrower": {
-        "id": "658539b4286a4b4864445c99",
-        "name": "Ortega Sargent",
-        "email": "ortegasargent@orbaxter.com",
-        "creditScore": 650
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 380000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4fa78252e9108d813",
-      "amount": 1600,
-      "interestRate": 0.8,
-      "term": 90,
-      "purpose": "Others",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b4659dce726bc7762f",
-        "name": "Antoinette Shields",
-        "email": "antoinetteshields@orbaxter.com",
-        "creditScore": 650
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 395000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4ef61381e0b38dd0d",
-      "amount": 1600,
-      "interestRate": 0.8,
-      "term": 60,
-      "purpose": "Education",
-      "riskRating": "A",
-      "borrower": {
-        "id": "658539b4830179eca72ec6d0",
-        "name": "Kara Justice",
-        "email": "karajustice@orbaxter.com",
-        "creditScore": 600
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 400000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b48ab753c9562042b7",
-      "amount": 1750,
-      "interestRate": 0.8,
-      "term": 30,
-      "purpose": "Education",
-      "riskRating": "A",
-      "borrower": {
-        "id": "658539b4468015258ee78b6b",
-        "name": "Jeanne Collier",
-        "email": "jeannecollier@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 90000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b42a3c236832582a07",
-      "amount": 1800,
-      "interestRate": 0.8,
-      "term": 60,
-      "purpose": "Business Expansion",
-      "riskRating": "B",
-      "borrower": {
-        "id": "658539b4a4462269ed027469",
-        "name": "Mcmahon Stark",
-        "email": "mcmahonstark@orbaxter.com",
-        "creditScore": 700
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 860000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4a949a80b575cf19d",
-      "amount": 1900,
-      "interestRate": 0.8,
-      "term": 120,
-      "purpose": "Education",
-      "riskRating": "A",
-      "borrower": {
-        "id": "658539b4b55032c75d7243ca",
-        "name": "Elise Watts",
-        "email": "elisewatts@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 16900000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b48ca3ec2ecb5229fe",
-      "amount": 1950,
-      "interestRate": 0.8,
-      "term": 60,
-      "purpose": "Others",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b4df5b05e0e9c7c21b",
-        "name": "Serena Barber",
-        "email": "serenabarber@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 4590000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b4b4e137865b8720e2",
-      "amount": 2000,
-      "interestRate": 0.8,
-      "term": 90,
-      "purpose": "Others",
-      "riskRating": "C",
-      "borrower": {
-        "id": "658539b4c519e035b6654beb",
-        "name": "Alejandra Mercer",
-        "email": "alejandramercer@orbaxter.com",
-        "creditScore": 600
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 190000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
-    },
-    {
-      "id": "658539b45dee870635ad72d4",
-      "amount": 2500,
-      "interestRate": 0.8,
-      "term": 30,
-      "purpose": "Business Expansion",
-      "riskRating": "A",
-      "borrower": {
-        "id": "658539b49d503223bdc4f359",
-        "name": "Witt Holder",
-        "email": "wittholder@orbaxter.com",
-        "creditScore": 750
-      },
-      "collateral": {
-        "type": "Real Estate",
-        "value": 160000
-      },
-      "documents": [
-        {
-          "type": "Income Statement",
-          "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
-        }
-      ],
-      "repaymentSchedule": {
-        "installments": [
-          {
-            "dueDate": "2023-01-15",
-            "amountDue": 500
-          },
-          {
-            "dueDate": "2023-02-15",
-            "amountDue": 500
-          }
-        ]
-      }
+      ]
     }
-  ]
+  },
+  {
+    "id": "658539b428feed8be88f4743",
+    "amount": 8000,
+    "interestRate": 0.8,
+    "term": 60,
+    "purpose": "Business Expansion",
+    "riskRating": "B",
+    "borrower": {
+      "id": "658539b4531251559e6641bb",
+      "name": "Gayle Long",
+      "email": "gaylelong@orbaxter.com",
+      "creditScore": 700
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 120000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b483142e983fa406b6",
+    "amount": 7000,
+    "interestRate": 0.8,
+    "term": 120,
+    "purpose": "Business Expansion",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b400dd686f2836cc1f",
+      "name": "Phyllis Daniels",
+      "email": "phyllisdaniels@orbaxter.com",
+      "creditScore": 700
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 200000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4c4078e9f5df7cc9d",
+    "amount": 7000,
+    "interestRate": 0.9,
+    "term": 30,
+    "purpose": "Business Expansion",
+    "riskRating": "A",
+    "borrower": {
+      "id": "658539b4bcddeed3b178b5f0",
+      "name": "Blevins Matthews",
+      "email": "blevinsmatthews@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 130000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b483a726188161f5d5",
+    "amount": 9000,
+    "interestRate": 0.9,
+    "term": 90,
+    "purpose": "Education",
+    "riskRating": "B",
+    "borrower": {
+      "id": "658539b4a484f3aa8ecc93fe",
+      "name": "Stafford Soto",
+      "email": "staffordsoto@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 210000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4c0c84c2e90331b38",
+    "amount": 11000,
+    "interestRate": 0.5,
+    "term": 120,
+    "purpose": "Business Expansion",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b41f057a6f31c154a0",
+      "name": "Clark Wise",
+      "email": "clarkwise@orbaxter.com",
+      "creditScore": 600
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 690000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4c81273b4ec1b25d8",
+    "amount": 1200,
+    "interestRate": 0.5,
+    "term": 120,
+    "purpose": "Business Expansion",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b4cc7b8f3fb633bc41",
+      "name": "Foreman Charles",
+      "email": "foremancharles@orbaxter.com",
+      "creditScore": 700
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 990000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4895586c759e074d8",
+    "amount": 1250,
+    "interestRate": 0.4,
+    "term": 90,
+    "purpose": "Others",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b47d74be0f895bcad6",
+      "name": "Mcdaniel Bernard",
+      "email": "mcdanielbernard@orbaxter.com",
+      "creditScore": 600
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 170000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4dd99398e342ad63a",
+    "amount": 1300,
+    "interestRate": 0.4,
+    "term": 120,
+    "purpose": "Others",
+    "riskRating": "B",
+    "borrower": {
+      "id": "658539b4a45b4345110b0c91",
+      "name": "Cornelia Rojas",
+      "email": "corneliarojas@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 109000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4e6063f02f06ddfcd",
+    "amount": 1350,
+    "interestRate": 0.4,
+    "term": 30,
+    "purpose": "Others",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b49c105e35f4d4243c",
+      "name": "Petersen Cameron",
+      "email": "petersencameron@orbaxter.com",
+      "creditScore": 650
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 105000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4a708321bb0f5ca1e",
+    "amount": 1400,
+    "interestRate": 0.2,
+    "term": 60,
+    "purpose": "Others",
+    "riskRating": "B",
+    "borrower": {
+      "id": "658539b419b534ae8251dc79",
+      "name": "Santiago Mann",
+      "email": "santiagomann@orbaxter.com",
+      "creditScore": 600
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 107000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4b0f633ca9e6e12a1",
+    "amount": 1450,
+    "interestRate": 0.1,
+    "term": 60,
+    "purpose": "Home Improvement",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b45dbb8071875d3c73",
+      "name": "Robertson Hale",
+      "email": "robertsonhale@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 108000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b444a7f21ba8fd4b71",
+    "amount": 1450,
+    "interestRate": 0.3,
+    "term": 90,
+    "purpose": "Others",
+    "riskRating": "B",
+    "borrower": {
+      "id": "658539b4c1436318233a0238",
+      "name": "Warren Carlson",
+      "email": "warrencarlson@orbaxter.com",
+      "creditScore": 600
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 280000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4262bb457e5cc498e",
+    "amount": 1500,
+    "interestRate": 0.1,
+    "term": 30,
+    "purpose": "Others",
+    "riskRating": "B",
+    "borrower": {
+      "id": "658539b44f753bdbf718c2b6",
+      "name": "Davidson Bolton",
+      "email": "davidsonbolton@orbaxter.com",
+      "creditScore": 700
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 290000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b46614f61eeea46525",
+    "amount": 1500,
+    "interestRate": 0.6,
+    "term": 60,
+    "purpose": "Home Improvement",
+    "riskRating": "A",
+    "borrower": {
+      "id": "658539b482251db0f72909af",
+      "name": "Deanne Short",
+      "email": "deanneshort@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 320000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b41e347c9f026f881f",
+    "amount": 5000,
+    "interestRate": 0.6,
+    "term": 120,
+    "purpose": "Others",
+    "riskRating": "A",
+    "borrower": {
+      "id": "658539b4af8e4f58f444c719",
+      "name": "Sandoval Pugh",
+      "email": "sandovalpugh@orbaxter.com",
+      "creditScore": 700
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 340000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b41dad92abe379f11b",
+    "amount": 1600,
+    "interestRate": 0.7,
+    "term": 30,
+    "purpose": "Others",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b4ed28207d1e35a099",
+      "name": "Ophelia Stevens",
+      "email": "opheliastevens@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 360000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4a3199592bafecafa",
+    "amount": 1600,
+    "interestRate": 0.7,
+    "term": 80,
+    "purpose": "Others",
+    "riskRating": "A",
+    "borrower": {
+      "id": "658539b4286a4b4864445c99",
+      "name": "Ortega Sargent",
+      "email": "ortegasargent@orbaxter.com",
+      "creditScore": 650
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 380000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4fa78252e9108d813",
+    "amount": 1600,
+    "interestRate": 0.8,
+    "term": 90,
+    "purpose": "Others",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b4659dce726bc7762f",
+      "name": "Antoinette Shields",
+      "email": "antoinetteshields@orbaxter.com",
+      "creditScore": 650
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 395000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4ef61381e0b38dd0d",
+    "amount": 1600,
+    "interestRate": 0.8,
+    "term": 60,
+    "purpose": "Education",
+    "riskRating": "A",
+    "borrower": {
+      "id": "658539b4830179eca72ec6d0",
+      "name": "Kara Justice",
+      "email": "karajustice@orbaxter.com",
+      "creditScore": 600
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 400000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b48ab753c9562042b7",
+    "amount": 1750,
+    "interestRate": 0.8,
+    "term": 30,
+    "purpose": "Education",
+    "riskRating": "A",
+    "borrower": {
+      "id": "658539b4468015258ee78b6b",
+      "name": "Jeanne Collier",
+      "email": "jeannecollier@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 90000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b42a3c236832582a07",
+    "amount": 1800,
+    "interestRate": 0.8,
+    "term": 60,
+    "purpose": "Business Expansion",
+    "riskRating": "B",
+    "borrower": {
+      "id": "658539b4a4462269ed027469",
+      "name": "Mcmahon Stark",
+      "email": "mcmahonstark@orbaxter.com",
+      "creditScore": 700
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 860000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4a949a80b575cf19d",
+    "amount": 1900,
+    "interestRate": 0.8,
+    "term": 120,
+    "purpose": "Education",
+    "riskRating": "A",
+    "borrower": {
+      "id": "658539b4b55032c75d7243ca",
+      "name": "Elise Watts",
+      "email": "elisewatts@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 16900000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b48ca3ec2ecb5229fe",
+    "amount": 1950,
+    "interestRate": 0.8,
+    "term": 60,
+    "purpose": "Others",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b4df5b05e0e9c7c21b",
+      "name": "Serena Barber",
+      "email": "serenabarber@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 4590000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b4b4e137865b8720e2",
+    "amount": 2000,
+    "interestRate": 0.8,
+    "term": 90,
+    "purpose": "Others",
+    "riskRating": "C",
+    "borrower": {
+      "id": "658539b4c519e035b6654beb",
+      "name": "Alejandra Mercer",
+      "email": "alejandramercer@orbaxter.com",
+      "creditScore": 600
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 190000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  },
+  {
+    "id": "658539b45dee870635ad72d4",
+    "amount": 2500,
+    "interestRate": 0.8,
+    "term": 30,
+    "purpose": "Business Expansion",
+    "riskRating": "A",
+    "borrower": {
+      "id": "658539b49d503223bdc4f359",
+      "name": "Witt Holder",
+      "email": "wittholder@orbaxter.com",
+      "creditScore": 750
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "value": 160000
+    },
+    "documents": [
+      {
+        "type": "Income Statement",
+        "url": "/loans/documents/income_statement/slip-gaji-karyawan-pertamina.jpeg"
+      }
+    ],
+    "repaymentSchedule": {
+      "installments": [
+        {
+          "dueDate": "2023-01-15",
+          "amountDue": 500
+        },
+        {
+          "dueDate": "2023-02-15",
+          "amountDue": 500
+        }
+      ]
+    }
+  }
+]
