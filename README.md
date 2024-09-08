@@ -4,7 +4,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## About
 
-Here is a loan application that can display a list of loan data from a [JSON file](https://raw.githubusercontent.com/andreascandle/p2p_json_test/main/api/json/loans.json) containing data such as loan amount, interest rate, and term. For the loan detail page, it displays selected user details such as borrower details and payment schedule. The application can filter, sort, and number pages and there is also a loan data chart. The application has also implemented a responsive design to ensure the application can be accessed via desktop and mobile devices.
+Here is a loan application that can display a list of loan data from a [JSON file](https://raw.githubusercontent.com/andreascandle/p2p_json_test/main/api/json/loans.json) containing data such as loan amount, interest rate, and term. For the loan detail page, it displays selected user details such as borrower details and payment schedule. The application can filter, sort and there is also a loan data chart. The application has also implemented a responsive design to ensure the application can be accessed via desktop and mobile devices.
 
 ## Setup
 
